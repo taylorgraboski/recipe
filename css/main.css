@@ -2,8 +2,178 @@
 
 /* flexible images */
 
+
+/* header figure{
+  text-align: center;
+} */
+
+/* ---links--- */
+/* interactive pseudo-classes */
+
+a {
+  color: #fff;
+}
+
+a:hover,
+a:focus {
+  color: #000;
+}
+
+/* .back-to-top a{
+  color: #ff0;
+} */
+
+/* nav */
+nav {
+  margin-top: 3em;
+}
+
+nav h2 {
+  text-align: right;
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  text-align: right;
+  padding-top: .5em;
+  padding-left: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em;
+  border: 1px solid #fff;
+  border-radius: .5em;
+}
+nav a:hover,
+nav a:focus {
+  background-color: #fff;
+}
+
+
+
+
+header figcaption {
+  text-align: left;
+}
+
+header {
+  text-align: center;
+}
+
 img {
   width: auto;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
+  background: #ccc;
+  padding: 1em;
+  border: 2em solid #fff;
+}
+
+figcaption {
+  max width: 70%;
+  background: #ccc;
+  padding: 1em;
+  border: 2em solid #fff;
+}
+
+/* figure {
+  background: #ccc;
+  padding: 1em;
+  border: 2em solid #fff;
+} */
+
+body {
+  width: 90%;
+  max-width: 60em;
+  margin: 5% auto;
+  background-color: #D7A4B6;
+  font-family: Lucida Bright, Georgia, Cambria;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+h1 {
+  background: #fff;
+  padding: .5em;
+  font-size: 3em;
+}
+
+main {
+  /* padding: 10%; */
+  /* background: #ccc; */
+  border: 2em solid #fff;
+  /* overflow: hidden; */
+}
+
+/* and id in html= # */
+
+/* #ingredients,
+#preparation {
+  float:left;
+  width: 50%;
+} */
+
+
+
+#ingredients {
+  background: #ccc;
+  padding: 1em;
+}
+
+#ingredients ul {
+  list-style: disc;
+  padding-left: 1em;
+}
+
+#ingredients li {
+  /* color: #fff; */
+  line-height: 1.5;
+  margin-top: .5em;
+}
+
+#directions {
+  background: #ccc;
+  padding: 1em;
+}
+
+#directions ol{
+  padding-left: 1em;
+}
+
+#ratings-and-reviews {
+  background: #ccc;
+  padding: 1em;
+  border: 2em solid #fff;
+}
+
+.hr {
+  padding-bottom: .125em;
+  border-bottom: 3px solid #000;
+}
+
+.back-to-top {
+  text-align: center;
+}
+/* #ingredients li span{
+
+} */
+
+
+
+/* layout for wider screens */
+@media (min-width: 60em) {
+  main {
+    background: #ccc;
+    border: 2em solid #fff;
+    overflow: hidden;
+  }
+  #ingredients,
+  #preparation {
+    float:left;
+    width: 50%;
 }
