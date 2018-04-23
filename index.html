@@ -3,27 +3,32 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="cannonical" href="https://www.mccormick.com/recipes/dessert/red-velvet-cupcakes">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Red Velvet Cupcakes</title>
+    <meta name="description" content="Delicious red velvet cupcakes in perfect portions!">
     <meta name="author" content="Taylor Graboski">
+    <script src="java/smooth-scroll.js"></script>
   </head>
 
+
+  <body>
   <nav>
     <h2>Menu</h2>
     <ul>
-      <li><a href="#ingredients">Ingredients</a></li>
-      <li><a href="#directions">Preparation</a></li>
-      <li><a href="#ratings-and-reviews">Ratings and Reviews</a></li>
+      <li><a data-scroll href="#ingredients">Ingredients</a></li>
+      <li><a data-scroll href="#directions">Preparation</a></li>
+      <li><a data-scroll href="#ratings-and-reviews">Ratings and Reviews</a></li>
     </ul>
   </nav>
 
-  <body>
   <header>
     <h1>Red Velvet Cupcakes</h1>
   <figure>
-    <img alt="Red Velvet Cupcakes" src="img/cupcakes.jpg" width="256">
+    <img alt="Red Velvet Cupcakes" src="img/cupcakes-w960.jpg" width="256">
     <figcaption>
       <p class="description">Love red velvet cake but don't want to eat the big portions? These red velvet cupcakes with vanilla cream cheese frosting are the mini versions of our classic red velvet cake — perfect for snacking, gifting, and all holidays and occasions.</p>
+      <small class="photo-credit">Photo by Taylor Graboski</small>
     </figcaption>
   </figure>
       <!-- <p>Love red velvet cake but don't want to eat the big portions? These red velvet cupcakes with vanilla cream cheese frosting are the mini versions of our classic red velvet cake — perfect for snacking, gifting, and all holidays and occasions.</p> -->
@@ -123,8 +128,13 @@
     </section>
 
     <div class="back-to-top">
-      <a href="#">Back to Top</a>
+      <a data-scroll href="#">Back to Top</a>
     </div>
 
+  <footer>
+    <script>
+	     var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+  </footer>
     </body>
 </html>

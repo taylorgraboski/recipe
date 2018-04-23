@@ -75,7 +75,6 @@ img {
 }
 
 figcaption {
-  max width: 70%;
   background: #ccc;
   padding: 1em;
   border: 2em solid #fff;
@@ -91,8 +90,8 @@ body {
   width: 90%;
   max-width: 60em;
   margin: 5% auto;
-  background-color: #D7A4B6;
-  font-family: Lucida Bright, Georgia, Cambria;
+  background-color: #DAB;
+  font-family: "Lucida Bright", Georgia, Cambria;
   font-size: 1.1em;
   line-height: 1.5;
 }
